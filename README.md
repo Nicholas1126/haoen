@@ -220,7 +220,7 @@
 
 ## 六、常见问题
 
-### Q: 如何配置云侧openclaw？
+### Q: 无法找到小艺claw智能体？如何购买小艺claw智能体服务？
 
 **解决方案**：参考：https://github.com/Nicholas1126/haoen/issues 页面
 
