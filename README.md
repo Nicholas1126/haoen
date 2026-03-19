@@ -220,14 +220,14 @@
 
 ## 六、常见问题
 
-### Q: 为什么找不到智能体入口？
+### Q: 如何配置云侧openclaw？
 
 可能原因：
 - 功能在小范围内测中
 - 系统或 App 版本过低
 - 设备不支持
 
-**解决方案**：参考：https://github.com/Nicholas1126/haoen/issues/2 页面
+**解决方案**：参考：https://github.com/Nicholas1126/haoen/issues 页面
 
 ### Q: 智能体没有回复怎么办？
 
@@ -236,7 +236,7 @@
 - 尝试重新进入智能体
 - 参考：https://github.com/Nicholas1126/haoen/issues/1 页面
 
-### Q: 如何使用小艺Claw？
+### Q: 如何配置小艺Claw？
 
 - **遇到任何问题可以先参考：https://github.com/Nicholas1126/haoen/issues 页面，看看网友们都遇到了哪些问题，您可以在那找到解决方案哦**
 
