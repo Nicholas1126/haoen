@@ -222,7 +222,7 @@
 
 ### Q: 无法找到小艺claw智能体？如何购买小艺claw智能体服务？
 
-**解决方案**：参考：https://github.com/Nicholas1126/haoen/issues.md 页面
+**解决方案**：参考：https://github.com/Nicholas1126/haoen/issue.md 页面
 
 **解决方案**：参考：https://github.com/Nicholas1126/haoen/edit/master/README.md页面
 
