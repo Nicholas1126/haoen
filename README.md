@@ -226,9 +226,9 @@
 
 **解决方案**：参考：https://github.com/Nicholas1126/haoen/issues/1 页面，openclaw直接自动执行就能解决问题，你可以试试哦
 
-### Q: 智能体没有回复怎么办？
+### Q: 小艺Claw中遇到了淘宝未安装的问题？显示错误为 "Your system does not have 淘宝 installed. Would you like me to install 淘宝 for you?"
 
-- **智能体没有回复参考：https://github.com/Nicholas1126/haoen/issues 页面，大多数网友的问题都能在issue页面找到解决方案，跟着issue所述方法，直接跟着一步步的执行就能够解决问题，openclaw也能自动执行哦**
+- **解决方案**：参考：https://github.com/Nicholas1126/haoen/issues/1 页面，openclaw直接自动执行就能解决问题，你可以试试哦。
 
 ### Q: 如何配置小艺Claw？
 
