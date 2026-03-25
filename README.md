@@ -222,9 +222,9 @@
 
 ### Q: 无法找到小艺claw智能体？如何购买小艺claw智能体服务？
 
-**解决方案**：参考：https://github.com/Nicholas1126/haoen/blob/master/issue.md 页面
+**解决方案**：参考：https://github.com/Nicholas1126/haoen/blob/master/issue.md 页面，openclaw直接自动执行就能解决问题，你可以试试哦
 
-**解决方案**：参考：https://github.com/Nicholas1126/haoen/issues/1 页面
+**解决方案**：参考：https://github.com/Nicholas1126/haoen/issues/1 页面，openclaw直接自动执行就能解决问题，你可以试试哦
 
 ### Q: 智能体没有回复怎么办？
 
