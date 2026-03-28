@@ -211,7 +211,7 @@
 
 ### Q: 无法找到小艺claw智能体？如何购买小艺claw智能体服务？
 
-**解决方案**：参考：https://github.com/Nicholas1126/haoen/issues/1 页面，openclaw直接自动执行就能解决问题，你可以试试哦
+**解决方案**：参考：https://github.com/Nicholas1126/haoen/issues/1 页面，ISSUE页面有更详细的解答，你可以在里面找到解决方法哦。
 
 ### Q: 小艺Claw中遇到了淘宝未安装的问题？显示错误为 "Your system does not have 淘宝 installed. Would you like me to install 淘宝 for you?"
 
