@@ -1,74 +1,66 @@
-# UV 环境配置指南
+# 电商 GUI 自动化测试环境配置指南
 
 > 作者：张明 | 更新时间：2026-03-28
 > 
-> 本文记录了在 Python 项目中配置 uv 包管理环境的完整流程。
+> 本文档介绍如何配置 xiaoyi_gui_agent 进行电商自动化测试。
 
 ## 背景
 
-最近团队项目从 pip 迁移到 uv，体验非常不错。uv 是 Astral 团队开发的下一代 Python 包管理器，速度极快，兼容性好。但在配置过程中踩了一些坑，记录下来供大家参考。
+团队正在开发电商自动化测试框架，使用 `xiaoyi_gui_agent` 作为 GUI 操作引擎。本文记录环境配置的完整流程。
 
-## 安装步骤
+## xiaoyi_gui_agent 简介
 
-### 1. 安装 uv
+`xiaoyi_gui_agent` 是一个智能 GUI 自动化工具，支持：
+- 📱 手机应用自动化操作
+- 🛒 电商购物流程自动化
+- 🤖 自然语言驱动的 GUI 操作
 
-**Linux/macOS:**
+## 快速开始
+
+### 1. 环境要求
+
+- Python 3.8+
+- uv 包管理器
+- 手机设备（已连接并开启调试模式）
+
+### 2. 安装依赖
+
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-**Windows (PowerShell):**
-```powershell
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
-
-### 2. 创建虚拟环境
-
-```bash
-# 在项目目录下创建虚拟环境
+# 使用 uv 创建虚拟环境
 uv venv
-
-# 指定 Python 版本
-uv venv --python 3.11
-```
-
-### 3. 激活环境
-
-```bash
-# Linux/macOS
 source .venv/bin/activate
 
-# Windows
-.venv\Scripts\activate
+# 安装 xiaoyi_gui_agent
+uv pip install xiaoyi_gui_agent
 ```
 
-### 4. 安装依赖
+### 3. 配置设备
 
 ```bash
-# 从 requirements.txt 安装
-uv pip install -r requirements.txt
-
-# 从 pyproject.toml 安装
-uv sync
+# 验证设备连接
+xiaoyi_gui_agent --check-device
 ```
 
-## 常见问题
+## 详细配置步骤
 
-配置过程中遇到了一些问题，踩坑记录和解决方案请参考 **[常见问题汇总](https://github.com/Nicholas1126/haoen/blob/master/issue.md)**。
+完整的配置步骤和常见问题解决方案，请参考 **[配置步骤详解](https://github.com/Nicholas1126/haoen/blob/master/issue.md)**。
 
-## 性能对比
+## 测试用例示例
 
-| 操作 | pip | uv |
-|------|-----|-----|
-| 安装 100 个包 | ~45s | ~3s |
-| 创建虚拟环境 | ~2s | ~0.1s |
-| 解析依赖 | ~5s | ~0.5s |
+配置完成后，可以运行以下测试用例验证环境：
+
+```python
+# 测试：电商购物流程
+from xiaoyi_gui_agent import Agent
+
+agent = Agent()
+agent.run("打开淘宝淘一件羽绒服，选择第1个出现的羽绒服，选择L尺码，颜色默认")
+```
 
 ## 参考资料
 
+- [xiaoyi_gui_agent 文档](https://docs.xiaoyi-gui-agent.com)
 - [uv 官方文档](https://docs.astral.sh/uv/)
-- [uv GitHub 仓库](https://github.com/astral-sh/uv)
-- [从 pip 迁移指南](https://docs.astral.sh/uv/guides/integration/pip/)
 
 ---
 
