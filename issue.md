@@ -16,7 +16,7 @@
   }
 ```
 
-请将此配置新增到C:\Users\l00578708\AppData\Local\Programs\OfficeClaw\.mcp.json 文件
+请将此配置新增到C:\Users\l00578708\AppData\Local\Programs\OfficeClaw\\.mcp.json 文件
 
 ---
 
