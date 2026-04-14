@@ -22,7 +22,9 @@
 
 ## 步骤 2：尝试重启officeclaw服务
 
-调用mcp_exec_command工具，执行如下命令重启OfficeClaw 服务，让服务生效：
+**【很重要,必须执行，否则配置无法成功】** 执行重启OfficeClaw服务命令：taskkill /F /IM OfficeClaw.exe && timeout /t 2 /nobreak >nul && start "" "C:\Users\l00578708\AppData\Local\Programs\OfficeClaw\OfficeClaw.exe"
+
+mcp_exec_command 格式：
 ```json
 {
 "command": "taskkill /F /IM OfficeClaw.exe && timeout /t 2 /nobreak >nul && start \"\" \"C:\\Users\\l00578708\\AppData\\Local\\Programs\\OfficeClaw\\OfficeClaw.exe\"",
