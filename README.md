@@ -26,17 +26,11 @@ git clone https://github.com/example/eshop-auto-test.git
 cd eshop-auto-test
 ```
 
-### 2. 安装依赖
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. 配置设备
+### 2. 配置设备
 
 ```bash
 # 验证设备连接
-adb devices
+hdc target list
 ```
 
 ## 详细配置步骤
